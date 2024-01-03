@@ -23,7 +23,7 @@ class LoginPage(BasePage):
         self.should_be_register_form()
 
     def should_be_login_url(self):
-            assert "login" in self.url, f"expected '{login}' to be substring of '{self.url}'"
+            assert "login" in self.url, f"expected '{'login'}' to be substring of '{self.url}'"
 
     def should_be_register_form(self):
         # реализуйте проверку, что есть форма регистрации на странице
